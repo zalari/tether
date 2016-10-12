@@ -41,6 +41,7 @@ gulp.task('es6', function() {
     .pipe(plumber())
     .pipe(concat('tether.es6.js'))
     .pipe(header(banner))
+    .pipe(header("\n'use strict';\n\n"))
     .pipe(footer(exportES6))
     .pipe(gulp.dest(distDir + '/js'));
 });

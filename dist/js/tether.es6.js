@@ -1,3 +1,6 @@
+
+'use strict';
+
 /*! tether 1.3.7 */
 let TetherBase;
 if (typeof TetherBase === 'undefined') {
