@@ -20,7 +20,7 @@
     "url": "https://github.com/HubSpot/tether.git"
   },
   "license": "MIT",
-  "main": "dist/js/tether.js",
+  "main": "dist/js/tether.es6.js",
   "devDependencies": {
     "del": "^2.0.2",
     "del-cli": "^0.2.0",
@@ -29,6 +29,7 @@
     "gulp-babel": "^5.2.1",
     "gulp-bump": "^0.3.1",
     "gulp-concat": "^2.6.0",
+    "gulp-footer": "^1.0.5",
     "gulp-header": "^1.7.1",
     "gulp-minify-css": "^1.2.1",
     "gulp-plumber": "^1.0.1",
