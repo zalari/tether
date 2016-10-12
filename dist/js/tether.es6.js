@@ -1615,4 +1615,4 @@ TetherBase.modules.push({
   }
 });
 
-export default Tether
+export { Tether as default, TetherClass, TetherBase }

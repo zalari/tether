@@ -21,7 +21,7 @@ var umdOptions = {
   namespace: 'Tether'
 };
 var banner = ['/*!', pkg.name, pkg.version, '*/\n'].join(' ');
-var exportES6 = ['\nexport default ', umdOptions.exports].join('');
+var exportES6 = ['\nexport { ', umdOptions.exports, ' as default, TetherClass, TetherBase }'].join('');
 
 
 // Clean
